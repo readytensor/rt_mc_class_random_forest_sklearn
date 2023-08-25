@@ -1,0 +1,29 @@
+{
+  "num_trials": 20,
+  "hyperparameters": [
+    {
+      "name": "n_estimators",
+      "short_desc": "The number of trees in the forest.",
+      "type": "int",
+      "search_type": "uniform",
+      "range_low": 50,
+      "range_high": 300
+    },
+    {
+      "name": "min_samples_split",
+      "short_desc": "The minimum number of samples required to split an internal node",
+      "type": "int",
+      "search_type": "uniform",
+      "range_low": 2,
+      "range_high": 30
+    },
+    {
+      "name": "min_samples_leaf",
+      "short_desc": "The minimum number of samples required to be at a leaf node.",
+      "type": "int",
+      "search_type": "uniform",
+      "range_low": 1,
+      "range_high": 20
+    }
+  ]
+}
