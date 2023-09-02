@@ -150,7 +150,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
     ]
 }' http://localhost:8080/explain
 ```
-The server will respond with a JSON object containing the predicted probabilities and locations for each input record:
+The server will respond with a JSON object containing the predicted probabilities and local explanations for each input record:
 ```json
 {
   "status": "success",
