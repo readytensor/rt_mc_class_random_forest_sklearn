@@ -26,7 +26,7 @@ def test_init():
         "schemaVersion": 1.0,
         "inputDataFormat": "CSV",
         "id": {"name": "Test ID"},
-        "target": {"name": "Test Target", "classes": ["0", "1"], "nullable": False},
+        "target": {"name": "Test Target", "classes": ["0", "1"]},
         "features": [{"name": "Test feature", "dataType": "NUMERIC", "nullable": True}],
     }
 
